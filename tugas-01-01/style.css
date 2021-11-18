@@ -1,0 +1,34 @@
+h1 
+    {
+        font-family: sans-serif;
+        color: grey;
+    } 
+p 
+    {
+        font-family: courier;
+        color: grey;
+    }
+input, .tombol
+    {
+        border: 1px solid blue;
+        padding: 7px;
+    }
+.tombol {background-color: darkgray;}
+table
+    {
+        border-collapse: collapse;
+        position: relative;
+        top: 13px;
+    }
+th
+    {
+        font-family: arial;
+        background-color: gray;
+        color: black;
+    }
+th, td
+    {
+        border: 1px solid rgb(88, 84, 84);
+        padding: 7px;
+    }
+tr:nth-child(odd){background-color: grey;}
